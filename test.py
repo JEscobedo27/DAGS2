@@ -13,7 +13,7 @@ with DAG(
     default_args=default_args,
     description='Ejecuta nc para chequear puerto desde el webserver',
     start_date=datetime(2025, 9, 5),
-    schedule_interval=None,
+    schedule=None,
     catchup=False,
     tags=["Jorge", "Rolon"],
 ) as dag:
