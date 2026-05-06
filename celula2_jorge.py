@@ -9,7 +9,7 @@ default_args = {
 }
 
 with DAG(
-    dag_id='pruebasgit',
+    dag_id='celula2_pruebasgit',
     default_args=default_args,
     description='Ejecuta nc para chequear puerto desde el webserver',
     start_date=datetime(2026, 5, 6),
