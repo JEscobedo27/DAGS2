@@ -975,7 +975,7 @@ _dag_description = (
 )
 
 with DAG(
-    dag_id="generacion_insumos_todos_cloud",
+    dag_id="celula2_generacion_insumos_todos_cloud",
     description=_dag_description,
     default_args={
         "owner": "airflow",
